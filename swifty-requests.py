@@ -12,23 +12,40 @@ try:
 	response = requests.post(url, data=body)
 	response.raise_for_status()
 	token = response.json()
-	print(token)
+	# print(token)q
 except Exception as e:
 	print(f"Failed while fetching token: {e}")
 
 
 
+
+def getURL(url: str, login: str) -> str:
+	all_urls = {
+		"users_list": f"https://api.intra.42.fr/v2/users?range%5Blogin%5D={login.lower()},{login.lower()}z",
+		"user": f"https://api.intra.42.fr/v2/users/{login.lower()}",
+		"coalitions": f"https://api.intra.42.fr/v2/users/{login.lower()}/coalitions",
+	}
+	try:
+		return all_urls[url]
+	except:
+		return ""
+
 def getUserInfo(login: str):
 	headers = {
 		"Authorization": f"Bearer {token['access_token']}"
 	}
-	print(headers)
+	# print(headers)
 	try:
 		# response = requests.get(f"https://api.intra.42.fr/v2/users?range%5Blogin%5D={login.lower()},{login.lower()}z", headers=headers) # Fetching all users startswith
-		response = requests.get(f"https://api.intra.42.fr/v2/users/{login.lower()}/coalitions", headers=headers) # Fetching all users startswith
+		url = getURL("user", "tajavon")
+		print(f"[{url}]")
+		if (url == ""):
+			print("Bad URL.")
+			return
+		response = requests.get(url, headers=headers) # Fetching all users startswith
 		response.raise_for_status()
-		with open("output.json", "w") as f:
-			f.write(json.dumps(response.json(), sort_keys=True, indent=4))
+		with open("output.json", "w", encoding="utf-8") as f:
+			f.write(json.dumps(response.json(), indent=4))
 		# print(json.dumps(response.json(), sort_keys=True, indent=4))
 		# print(response.json())
 	except Exception as e:
