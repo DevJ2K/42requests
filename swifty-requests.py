@@ -22,7 +22,12 @@ except Exception as e:
 def getURL(url: str, login: str) -> str:
 	all_urls = {
 		"users_list": f"https://api.intra.42.fr/v2/users?range%5Blogin%5D={login.lower()},{login.lower()}z",
+		"find_by_campus": f"https://api.intra.42.fr/v2/campus/1/users?range%5Blogin%5D={login.lower()},{login.lower()}z&filter[staff?]=false",
 		"user": f"https://api.intra.42.fr/v2/users/{login.lower()}",
+		"users": f"https://api.intra.42.fr/v2/campus/1/users?filter[staff?]=false",
+		"fetch": f"https://api.intra.42.fr/v2/campus/1/users?filter[active?]=true",
+		"cursus": f"https://api.intra.42.fr/v2/cursus/21/cursus_users",
+		# "campus": f"https://api.intra.42.fr/v2/campus_users",
 		"coalitions": f"https://api.intra.42.fr/v2/users/{login.lower()}/coalitions",
 	}
 	try:
