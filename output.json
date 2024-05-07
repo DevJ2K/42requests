@@ -1,221 +1,502 @@
-{
-    "id": 140830,
-    "email": "erichard@student.42.fr",
-    "login": "erichard",
-    "first_name": "Elodie",
-    "last_name": "Richardeau",
-    "usual_full_name": "Elodie Richardeau",
-    "usual_first_name": null,
-    "url": "https://api.intra.42.fr/v2/users/erichard",
-    "phone": "hidden",
-    "displayname": "Elodie Richardeau",
-    "kind": "student",
-    "image": {
-        "link": null,
-        "versions": {
-            "large": null,
-            "medium": null,
-            "small": null,
-            "micro": null
+[
+    {
+        "grade": "Member",
+        "level": 12.44,
+        "skills": [
+            {
+                "id": 3,
+                "name": "Rigor",
+                "level": 9.36
+            },
+            {
+                "id": 6,
+                "name": "Web",
+                "level": 7.22
+            },
+            {
+                "id": 10,
+                "name": "Network & system administration",
+                "level": 7.11
+            },
+            {
+                "id": 17,
+                "name": "Object-oriented programming",
+                "level": 5.86
+            },
+            {
+                "id": 11,
+                "name": "Security",
+                "level": 5.02
+            },
+            {
+                "id": 2,
+                "name": "Imperative programming",
+                "level": 4.84
+            },
+            {
+                "id": 1,
+                "name": "Algorithms & AI",
+                "level": 4.8
+            },
+            {
+                "id": 4,
+                "name": "Unix",
+                "level": 4.7
+            },
+            {
+                "id": 7,
+                "name": "Group & interpersonal",
+                "level": 4.11
+            },
+            {
+                "id": 14,
+                "name": "Adaptation & creativity",
+                "level": 3.71
+            },
+            {
+                "id": 5,
+                "name": "Graphics",
+                "level": 3.39
+            }
+        ],
+        "blackholed_at": null,
+        "id": 236672,
+        "begin_at": "2023-11-06T08:42:00.000Z",
+        "end_at": null,
+        "cursus_id": 21,
+        "has_coalition": true,
+        "created_at": "2023-09-08T16:48:27.152Z",
+        "updated_at": "2023-09-08T16:48:27.152Z",
+        "user": {
+            "id": 159359,
+            "email": "ggay@student.42.fr",
+            "login": "ggay",
+            "first_name": "Gr\u00e9goire",
+            "last_name": "Gay",
+            "usual_full_name": "Gr\u00e9goire Gay",
+            "usual_first_name": null,
+            "url": "https://api.intra.42.fr/v2/users/ggay",
+            "phone": "hidden",
+            "displayname": "Gr\u00e9goire Gay",
+            "kind": "student",
+            "image": {
+                "link": "https://cdn.intra.42.fr/users/d133953cde3df8d6e7bd90b627aed54e/ggay.jpg",
+                "versions": {
+                    "large": "https://cdn.intra.42.fr/users/793355f3d0e41bfa4e9e88112ced5239/large_ggay.jpg",
+                    "medium": "https://cdn.intra.42.fr/users/519617c9fcbdaf0635ef92eb1bbbcca0/medium_ggay.jpg",
+                    "small": "https://cdn.intra.42.fr/users/c21532e5370438b9c552fe29f444e3d9/small_ggay.jpg",
+                    "micro": "https://cdn.intra.42.fr/users/3897649795585038f1fe848109ee2c96/micro_ggay.jpg"
+                }
+            },
+            "staff?": false,
+            "correction_point": 0,
+            "pool_month": "august",
+            "pool_year": "2023",
+            "location": "paul-f4Br3s5",
+            "wallet": 140,
+            "anonymize_date": "2027-05-06T00:00:00.000+02:00",
+            "data_erasure_date": "2027-05-06T00:00:00.000+02:00",
+            "created_at": "2023-07-27T08:35:21.980Z",
+            "updated_at": "2024-05-07T10:05:31.010Z",
+            "alumnized_at": null,
+            "alumni?": false,
+            "active?": true
+        },
+        "cursus": {
+            "id": 21,
+            "created_at": "2019-07-29T08:45:17.896Z",
+            "name": "42cursus",
+            "slug": "42cursus",
+            "kind": "main"
         }
     },
-    "staff?": false,
-    "correction_point": 4,
-    "pool_month": "december",
-    "pool_year": "2022",
-    "location": null,
-    "wallet": 0,
-    "anonymize_date": "2025-12-23T00:00:00.000+01:00",
-    "data_erasure_date": "2025-12-23T00:00:00.000+01:00",
-    "created_at": "2022-12-14T15:33:41.832Z",
-    "updated_at": "2022-12-19T16:35:16.670Z",
-    "alumnized_at": null,
-    "alumni?": false,
-    "active?": false,
-    "groups": [],
-    "cursus_users": [
-        {
-            "grade": null,
-            "level": 3.08,
-            "skills": [
-                {
-                    "id": 4,
-                    "name": "Unix",
-                    "level": 7.03
-                }
-            ],
-            "blackholed_at": null,
-            "id": 198830,
-            "begin_at": "2022-12-19T08:42:00.000Z",
-            "end_at": "2022-12-25T22:42:10.000Z",
-            "cursus_id": 3,
-            "has_coalition": true,
-            "created_at": "2022-12-14T15:33:41.835Z",
-            "updated_at": "2022-12-23T15:52:29.321Z",
-            "user": {
-                "id": 140830,
-                "email": "erichard@student.42.fr",
-                "login": "erichard",
-                "first_name": "Elodie",
-                "last_name": "Richardeau",
-                "usual_full_name": "Elodie Richardeau",
-                "usual_first_name": null,
-                "url": "https://api.intra.42.fr/v2/users/erichard",
-                "phone": "hidden",
-                "displayname": "Elodie Richardeau",
-                "kind": "student",
-                "image": {
-                    "link": null,
-                    "versions": {
-                        "large": null,
-                        "medium": null,
-                        "small": null,
-                        "micro": null
-                    }
-                },
-                "staff?": false,
-                "correction_point": 4,
-                "pool_month": "december",
-                "pool_year": "2022",
-                "location": null,
-                "wallet": 0,
-                "anonymize_date": "2025-12-23T00:00:00.000+01:00",
-                "data_erasure_date": "2025-12-23T00:00:00.000+01:00",
-                "created_at": "2022-12-14T15:33:41.832Z",
-                "updated_at": "2022-12-19T16:35:16.670Z",
-                "alumnized_at": null,
-                "alumni?": false,
-                "active?": false
-            },
-            "cursus": {
+    {
+        "grade": "Member",
+        "level": 11.85,
+        "skills": [
+            {
                 "id": 3,
-                "created_at": "2015-04-20T07:39:49.050Z",
-                "name": "Discovery Piscine - Web",
-                "slug": "discovery-piscine-web",
-                "kind": "professional_training"
-            }
-        }
-    ],
-    "projects_users": [
-        {
-            "id": 2918230,
-            "occurrence": 0,
-            "final_mark": 100,
-            "status": "finished",
-            "validated?": true,
-            "current_team_id": 4600923,
-            "project": {
-                "id": 2014,
-                "name": "Cellule0.2 - Shell",
-                "slug": "cellule0-2-shell",
-                "parent_id": null
+                "name": "Rigor",
+                "level": 7.9
             },
-            "cursus_ids": [
-                3
-            ],
-            "marked_at": "2022-12-19T15:45:55.888Z",
-            "marked": true,
-            "retriable_at": "2022-12-19T15:45:55.991Z",
-            "created_at": "2022-12-19T14:51:42.321Z",
-            "updated_at": "2022-12-19T15:45:56.003Z"
-        },
-        {
-            "id": 2918035,
-            "occurrence": 0,
-            "final_mark": 100,
-            "status": "finished",
-            "validated?": true,
-            "current_team_id": 4600687,
-            "project": {
-                "id": 2013,
-                "name": "Cellule0.1 - Shell",
-                "slug": "cellule0-1-shell",
-                "parent_id": null
+            {
+                "id": 6,
+                "name": "Web",
+                "level": 7.03
             },
-            "cursus_ids": [
-                3
-            ],
-            "marked_at": "2022-12-19T14:34:18.205Z",
-            "marked": true,
-            "retriable_at": "2022-12-19T14:34:18.321Z",
-            "created_at": "2022-12-19T13:22:51.912Z",
-            "updated_at": "2022-12-19T14:34:18.339Z"
-        },
-        {
-            "id": 2917806,
-            "occurrence": 0,
-            "final_mark": 100,
-            "status": "finished",
-            "validated?": true,
-            "current_team_id": 4600416,
-            "project": {
-                "id": 2012,
-                "name": "Cellule0.0 - Shell",
-                "slug": "cellule0-0-shell",
-                "parent_id": null
+            {
+                "id": 10,
+                "name": "Network & system administration",
+                "level": 7.0
             },
-            "cursus_ids": [
-                3
-            ],
-            "marked_at": "2022-12-19T13:07:57.641Z",
-            "marked": true,
-            "retriable_at": "2022-12-19T13:07:57.729Z",
-            "created_at": "2022-12-19T11:35:01.594Z",
-            "updated_at": "2022-12-19T13:07:57.747Z"
-        }
-    ],
-    "languages_users": [
-        {
-            "id": 697137,
-            "language_id": 1,
-            "user_id": 140830,
-            "position": 1,
-            "created_at": "2022-12-14T15:33:43.068Z"
-        }
-    ],
-    "achievements": [],
-    "titles": [],
-    "titles_users": [],
-    "partnerships": [],
-    "patroned": [],
-    "patroning": [],
-    "expertises_users": [],
-    "roles": [],
-    "campus": [
-        {
-            "id": 1,
-            "name": "Paris",
-            "time_zone": "Europe/Paris",
-            "language": {
+            {
+                "id": 17,
+                "name": "Object-oriented programming",
+                "level": 6.4
+            },
+            {
+                "id": 2,
+                "name": "Imperative programming",
+                "level": 5.07
+            },
+            {
+                "id": 4,
+                "name": "Unix",
+                "level": 4.29
+            },
+            {
+                "id": 15,
+                "name": "Technology integration",
+                "level": 4.21
+            },
+            {
+                "id": 7,
+                "name": "Group & interpersonal",
+                "level": 4.11
+            },
+            {
                 "id": 1,
-                "name": "Fran\u00e7ais",
-                "identifier": "fr",
-                "created_at": "2014-11-02T16:43:38.466Z",
-                "updated_at": "2024-05-03T15:05:21.506Z"
+                "name": "Algorithms & AI",
+                "level": 4.07
             },
-            "users_count": 29713,
-            "vogsphere_id": 1,
-            "country": "France",
-            "address": "96, boulevard Bessi\u00e8res",
-            "zip": "75017",
-            "city": "Paris",
-            "website": "http://www.42.fr/",
-            "facebook": "https://facebook.com/42born2code",
-            "twitter": "https://twitter.com/42born2code",
-            "active": true,
-            "public": true,
-            "email_extension": "42.fr",
-            "default_hidden_phone": false
+            {
+                "id": 14,
+                "name": "Adaptation & creativity",
+                "level": 3.68
+            },
+            {
+                "id": 5,
+                "name": "Graphics",
+                "level": 3.42
+            },
+            {
+                "id": 12,
+                "name": "DB & Data",
+                "level": 2.02
+            }
+        ],
+        "blackholed_at": null,
+        "id": 241272,
+        "begin_at": "2023-11-06T08:42:00.000Z",
+        "end_at": null,
+        "cursus_id": 21,
+        "has_coalition": true,
+        "created_at": "2023-10-13T14:48:06.455Z",
+        "updated_at": "2023-10-13T14:48:06.455Z",
+        "user": {
+            "id": 164784,
+            "email": "tajavon@student.42.fr",
+            "login": "tajavon",
+            "first_name": "Th\u00e9o",
+            "last_name": "Ajavon",
+            "usual_full_name": "Th\u00e9o Ajavon",
+            "usual_first_name": null,
+            "url": "https://api.intra.42.fr/v2/users/tajavon",
+            "phone": "hidden",
+            "displayname": "Th\u00e9o Ajavon",
+            "kind": "student",
+            "image": {
+                "link": "https://cdn.intra.42.fr/users/75d7dbdc6a8da11f1a4fc38f0a641caf/tajavon.jpg",
+                "versions": {
+                    "large": "https://cdn.intra.42.fr/users/6ba29f06e26937c2fe7c6f193d22212d/large_tajavon.jpg",
+                    "medium": "https://cdn.intra.42.fr/users/9db1bddfd3b1ad6cc7828e46f6d55af6/medium_tajavon.jpg",
+                    "small": "https://cdn.intra.42.fr/users/4c23a85209107ba6f6c6e0f3baeacd82/small_tajavon.jpg",
+                    "micro": "https://cdn.intra.42.fr/users/efe404a25dc50e94739d9d661d704606/micro_tajavon.jpg"
+                }
+            },
+            "staff?": false,
+            "correction_point": 1,
+            "pool_month": "september",
+            "pool_year": "2023",
+            "location": "bess-f4r4s3",
+            "wallet": 895,
+            "anonymize_date": "2027-05-06T00:00:00.000+02:00",
+            "data_erasure_date": "2027-05-06T00:00:00.000+02:00",
+            "created_at": "2023-08-31T12:20:28.065Z",
+            "updated_at": "2024-05-07T06:20:00.541Z",
+            "alumnized_at": null,
+            "alumni?": false,
+            "active?": true
+        },
+        "cursus": {
+            "id": 21,
+            "created_at": "2019-07-29T08:45:17.896Z",
+            "name": "42cursus",
+            "slug": "42cursus",
+            "kind": "main"
         }
-    ],
-    "campus_users": [
-        {
-            "id": 132477,
-            "user_id": 140830,
-            "campus_id": 1,
-            "is_primary": true,
-            "created_at": "2022-12-14T15:33:41.856Z",
-            "updated_at": "2022-12-14T15:33:41.856Z"
+    },
+    {
+        "grade": "Learner",
+        "level": 9.01,
+        "skills": [
+            {
+                "id": 10,
+                "name": "Network & system administration",
+                "level": 8.06
+            },
+            {
+                "id": 3,
+                "name": "Rigor",
+                "level": 7.22
+            },
+            {
+                "id": 17,
+                "name": "Object-oriented programming",
+                "level": 5.76
+            },
+            {
+                "id": 2,
+                "name": "Imperative programming",
+                "level": 5.22
+            },
+            {
+                "id": 4,
+                "name": "Unix",
+                "level": 4.48
+            },
+            {
+                "id": 1,
+                "name": "Algorithms & AI",
+                "level": 4.0
+            },
+            {
+                "id": 5,
+                "name": "Graphics",
+                "level": 3.42
+            }
+        ],
+        "blackholed_at": "2025-09-06T07:42:00.000Z",
+        "id": 228433,
+        "begin_at": "2023-11-06T08:42:00.000Z",
+        "end_at": null,
+        "cursus_id": 21,
+        "has_coalition": true,
+        "created_at": "2023-08-04T15:04:39.199Z",
+        "updated_at": "2023-08-04T15:04:39.199Z",
+        "user": {
+            "id": 153935,
+            "email": "lmoheyma@student.42.fr",
+            "login": "lmoheyma",
+            "first_name": "Louis",
+            "last_name": "Moheymani",
+            "usual_full_name": "Louis Moheymani",
+            "usual_first_name": null,
+            "url": "https://api.intra.42.fr/v2/users/lmoheyma",
+            "phone": "hidden",
+            "displayname": "Louis Moheymani",
+            "kind": "student",
+            "image": {
+                "link": "https://cdn.intra.42.fr/users/7b5ececb5aadf9e1325251060f64fcc2/lmoheyma.jpg",
+                "versions": {
+                    "large": "https://cdn.intra.42.fr/users/50ba2cc7a70326c5b5466785a7be563a/large_lmoheyma.jpg",
+                    "medium": "https://cdn.intra.42.fr/users/aafe0786141ecc532247db6588967345/medium_lmoheyma.jpg",
+                    "small": "https://cdn.intra.42.fr/users/556ac7c20cd6fa903db56a7f52ad5bbc/small_lmoheyma.jpg",
+                    "micro": "https://cdn.intra.42.fr/users/b066fb5e07735e39d20059d97e393649/micro_lmoheyma.jpg"
+                }
+            },
+            "staff?": false,
+            "correction_point": 5,
+            "pool_month": "july",
+            "pool_year": "2023",
+            "location": "bess-f4r3s4",
+            "wallet": 650,
+            "anonymize_date": "2027-05-07T00:00:00.000+02:00",
+            "data_erasure_date": "2027-05-07T00:00:00.000+02:00",
+            "created_at": "2023-06-23T09:50:53.910Z",
+            "updated_at": "2024-05-07T09:34:58.032Z",
+            "alumnized_at": null,
+            "alumni?": false,
+            "active?": true
+        },
+        "cursus": {
+            "id": 21,
+            "created_at": "2019-07-29T08:45:17.896Z",
+            "name": "42cursus",
+            "slug": "42cursus",
+            "kind": "main"
         }
-    ]
-}
+    },
+    {
+        "grade": "Learner",
+        "level": 8.9,
+        "skills": [
+            {
+                "id": 10,
+                "name": "Network & system administration",
+                "level": 8.05
+            },
+            {
+                "id": 3,
+                "name": "Rigor",
+                "level": 7.34
+            },
+            {
+                "id": 17,
+                "name": "Object-oriented programming",
+                "level": 5.76
+            },
+            {
+                "id": 2,
+                "name": "Imperative programming",
+                "level": 4.99
+            },
+            {
+                "id": 4,
+                "name": "Unix",
+                "level": 4.45
+            },
+            {
+                "id": 1,
+                "name": "Algorithms & AI",
+                "level": 4.0
+            },
+            {
+                "id": 5,
+                "name": "Graphics",
+                "level": 3.35
+            }
+        ],
+        "blackholed_at": "2025-09-06T07:42:00.000Z",
+        "id": 228538,
+        "begin_at": "2023-11-06T08:42:00.000Z",
+        "end_at": null,
+        "cursus_id": 21,
+        "has_coalition": true,
+        "created_at": "2023-08-04T16:19:21.751Z",
+        "updated_at": "2023-08-04T16:19:21.751Z",
+        "user": {
+            "id": 153677,
+            "email": "ybelatar@student.42.fr",
+            "login": "ybelatar",
+            "first_name": "Youn\u00e8s",
+            "last_name": "Belataris",
+            "usual_full_name": "Youn\u00e8s Belataris",
+            "usual_first_name": null,
+            "url": "https://api.intra.42.fr/v2/users/ybelatar",
+            "phone": "hidden",
+            "displayname": "Youn\u00e8s Belataris",
+            "kind": "student",
+            "image": {
+                "link": "https://cdn.intra.42.fr/users/5b186266bfefff95f8e313d2bebc93f7/ybelatar.jpg",
+                "versions": {
+                    "large": "https://cdn.intra.42.fr/users/4a447093b5a85fc3192f0866a17c7508/large_ybelatar.jpg",
+                    "medium": "https://cdn.intra.42.fr/users/5b8d66c11f24b65e33326d8120377ede/medium_ybelatar.jpg",
+                    "small": "https://cdn.intra.42.fr/users/9f690cf6df9cbe137717b33401686fcb/small_ybelatar.jpg",
+                    "micro": "https://cdn.intra.42.fr/users/163a0218beda89a062110baab8660756/micro_ybelatar.jpg"
+                }
+            },
+            "staff?": false,
+            "correction_point": 0,
+            "pool_month": "july",
+            "pool_year": "2023",
+            "location": null,
+            "wallet": 140,
+            "anonymize_date": "2027-05-06T00:00:00.000+02:00",
+            "data_erasure_date": "2027-05-06T00:00:00.000+02:00",
+            "created_at": "2023-06-22T08:13:21.117Z",
+            "updated_at": "2024-05-07T04:33:13.160Z",
+            "alumnized_at": null,
+            "alumni?": false,
+            "active?": true
+        },
+        "cursus": {
+            "id": 21,
+            "created_at": "2019-07-29T08:45:17.896Z",
+            "name": "42cursus",
+            "slug": "42cursus",
+            "kind": "main"
+        }
+    },
+    {
+        "grade": "Learner",
+        "level": 8.42,
+        "skills": [
+            {
+                "id": 10,
+                "name": "Network & system administration",
+                "level": 7.54
+            },
+            {
+                "id": 3,
+                "name": "Rigor",
+                "level": 6.78
+            },
+            {
+                "id": 17,
+                "name": "Object-oriented programming",
+                "level": 5.55
+            },
+            {
+                "id": 2,
+                "name": "Imperative programming",
+                "level": 4.98
+            },
+            {
+                "id": 4,
+                "name": "Unix",
+                "level": 4.42
+            },
+            {
+                "id": 1,
+                "name": "Algorithms & AI",
+                "level": 4.04
+            },
+            {
+                "id": 5,
+                "name": "Graphics",
+                "level": 3.41
+            }
+        ],
+        "blackholed_at": "2025-09-06T07:42:00.000Z",
+        "id": 241406,
+        "begin_at": "2023-11-06T08:42:00.000Z",
+        "end_at": null,
+        "cursus_id": 21,
+        "has_coalition": true,
+        "created_at": "2023-10-13T15:33:36.161Z",
+        "updated_at": "2023-10-13T15:33:36.161Z",
+        "user": {
+            "id": 164708,
+            "email": "aleite-b@student.42.fr",
+            "login": "aleite-b",
+            "first_name": "Antoine",
+            "last_name": "Leite Barbosa",
+            "usual_full_name": "Antoine Leite Barbosa",
+            "usual_first_name": null,
+            "url": "https://api.intra.42.fr/v2/users/aleite-b",
+            "phone": "hidden",
+            "displayname": "Antoine Leite Barbosa",
+            "kind": "student",
+            "image": {
+                "link": "https://cdn.intra.42.fr/users/f68e8275437bdea0883d6d011170048e/aleite-b.jpg",
+                "versions": {
+                    "large": "https://cdn.intra.42.fr/users/3f7afa723397623fb6116dd50231a83a/large_aleite-b.jpg",
+                    "medium": "https://cdn.intra.42.fr/users/52e88e905bd19ff51a90aaed3fbb37b5/medium_aleite-b.jpg",
+                    "small": "https://cdn.intra.42.fr/users/c0a8cfd1e209b2c1de186a1d841dbc2f/small_aleite-b.jpg",
+                    "micro": "https://cdn.intra.42.fr/users/abe59dece6f8c9801b82a07c6f6dd6a6/micro_aleite-b.jpg"
+                }
+            },
+            "staff?": false,
+            "correction_point": -1,
+            "pool_month": "september",
+            "pool_year": "2023",
+            "location": "bess-f4r3s2",
+            "wallet": 145,
+            "anonymize_date": "2027-05-06T00:00:00.000+02:00",
+            "data_erasure_date": "2027-05-06T00:00:00.000+02:00",
+            "created_at": "2023-08-31T08:43:37.406Z",
+            "updated_at": "2024-05-07T08:46:08.546Z",
+            "alumnized_at": null,
+            "alumni?": false,
+            "active?": true
+        },
+        "cursus": {
+            "id": 21,
+            "created_at": "2019-07-29T08:45:17.896Z",
+            "name": "42cursus",
+            "slug": "42cursus",
+            "kind": "main"
+        }
+    }
+]

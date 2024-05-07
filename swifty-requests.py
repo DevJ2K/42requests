@@ -5,19 +5,28 @@ url = "https://api.intra.42.fr/oauth/token"
 body = {
 	"grant_type": "client_credentials",
 	"client_id": "u-s4t2ud-38f265289b75e04059b7a400daa7b92dcecaf7b762214f0d9f1456d9174bf8fe",
-	"client_secret": "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"
+	"client_secret": "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"
 }
 
 try:
 	response = requests.post(url, data=body)
 	response.raise_for_status()
 	token = response.json()
-	# print(token)q
+	print(token)
 except Exception as e:
 	print(f"Failed while fetching token: {e}")
 
 
-
+def getLeaderboardURL() -> str:
+	base  = "https://api.intra.42.fr/v2/cursus/21/cursus_users"
+	base += "?filter[campus_id]=1" # Uniquement Paris
+	# base += "?filter[user_id]=164784"
+	base += "&sort=-level" # Trier dans l'ordre decroissant
+	# base += "&detail=true"
+	base += "&page[number]=1" # Numero de page
+	base += "&page[size]=5" # Nombre d'utilisateurs par page
+	base += "&range[begin_at]=2023-11-06T08:42:00.000Z,2023-11-06T08:42:00.000Z" # Promo de Novembre
+	return base
 
 def getURL(url: str, login: str) -> str:
 	all_urls = {
@@ -26,7 +35,8 @@ def getURL(url: str, login: str) -> str:
 		"user": f"https://api.intra.42.fr/v2/users/{login.lower()}",
 		"users": f"https://api.intra.42.fr/v2/campus/1/users?filter[staff?]=false",
 		"fetch": f"https://api.intra.42.fr/v2/campus/1/users?filter[active?]=true",
-		"cursus": f"https://api.intra.42.fr/v2/cursus/21/cursus_users",
+		"location": f"https://api.intra.42.fr/v2/campus/1/locations?range[host]=bess-f4,bess-f4z",
+		"cursus": f"https://api.intra.42.fr/v2/cursus/21/cursus_users?filter[campus_id]=1&sort=-level&range[begin_at]=2023-09-03T07:42:00.000Z,2023-09-05T07:42:00.000Z",
 		# "campus": f"https://api.intra.42.fr/v2/campus_users",
 		"coalitions": f"https://api.intra.42.fr/v2/users/{login.lower()}/coalitions",
 	}
@@ -42,13 +52,17 @@ def getUserInfo(login: str):
 	# print(headers)
 	try:
 		# response = requests.get(f"https://api.intra.42.fr/v2/users?range%5Blogin%5D={login.lower()},{login.lower()}z", headers=headers) # Fetching all users startswith
-		url = getURL("user", "tajavon")
+		url = getLeaderboardURL()
+		# url = getURL("location", login)
 		print(f"[{url}]")
 		if (url == ""):
 			print("Bad URL.")
 			return
 		response = requests.get(url, headers=headers) # Fetching all users startswith
 		response.raise_for_status()
+		with open("header.json", "w", encoding="utf-8") as f:
+			# print(response.headers)
+			f.write(json.dumps(dict(response.headers), indent=4))
 		with open("output.json", "w", encoding="utf-8") as f:
 			f.write(json.dumps(response.json(), indent=4))
 		# print(json.dumps(response.json(), sort_keys=True, indent=4))
