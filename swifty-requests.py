@@ -4,8 +4,8 @@ import json
 url = "https://api.intra.42.fr/oauth/token"
 body = {
 	"grant_type": "client_credentials",
-	"client_id": "u-s4t2ud-38f265289b75e04059b7a400daa7b92dcecaf7b762214f0d9f1456d9174bf8fe",
-	"client_secret": "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"
+	"client_id": "",
+	"client_secret": ""
 }
 
 try:
